@@ -18,7 +18,18 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <section class="hero">
+    <section class="hero menu-container">
+      <div class="mobile-menu">
+        <svg class="logo">
+          <use href="./images/symbol-defs.svg#logo"></use>
+        </svg>
+        <button class="button--nav js-open-menu">
+            <svg class="nav--icon">
+              <use href="./src/images/symbol-defs.svg#icon-nav-button"></use>
+            </svg>
+          </button>
+
+      </div>
       <div class="modal is-hidden" data-modal>
         <div class="modal-inner">
           <button class="modal-close" type="button" data-modal-close1>
@@ -89,12 +100,11 @@
         <div class="bubble"></div>
         <div class="bubble"></div>
       </div>
-      <header class="header">
+      <header class="header menu-container">
         <div class="header__inner hero-container">
-          <img width="200" height="50" srcset="
-                ./src/images/Vlad/logo/Grouplogo.png    200w,
-                ./src/images/Vlad/logo/Grouplogo400.png 400w
-              " src="./src/images/Vlad/logo/Grouplogo.png" alt="logo" />
+       <svg class="logo">
+          <use href="./images/symbol-defs.svg#logo"></use>
+        </svg>
           <nav>
             <ul class="header__nav">
               <li><a href="index.html">Home</a></li>
@@ -106,13 +116,13 @@
           </nav>
           <button class="button--nav js-open-menu">
             <svg class="nav--icon">
-              <use href="./src/images/Vlad/svg/symbol-defs.svg#icon-nav-button"></use>
+              <use href="./src/images/symbol-defs.svg#icon-nav-button"></use>
             </svg>
           </button>
           <button class="button header__button" data-modal-open>
             Buy now
             <svg class="header__button__icon">
-              <use href="./src/images/Vlad/svg/symbol-defs.svg#icon-arrow"></use>
+              <use href="./src/images/symbol-defs.svg#icon-arrow"></use>
             </svg>
           </button>
         </div>
@@ -205,7 +215,7 @@
             </p>
             <a class="hero__inner--link">
               <svg class="hero__inner--icon">
-                <use href="./src/images/Vlad/svg/symbol-defs.svg#icon-vector"></use>
+                <use href="./src/images/symbol-defs.svg#icon-vector"></use>
               </svg>
             </a>
           </div>
@@ -865,14 +875,14 @@
               <li class="footer__social__list">
                 <a class="footer__social__list--link" href="#" target="_blank">
                   <svg class="footer__social__list--icon">
-                    <use href="./src/images/icons.svg#icon_github"></use>
+                    <use href="./src/images/symbol-defs.svg#icon-github"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer__social__list">
                 <a class="footer__social__list--link" href="#" target="_blank">
                   <svg class="footer__social__list--icon">
-                    <use href="./src/images/icons.svg#icon_telegram"></use>
+                    <use href="./src/images/symbol-defs.svg#icon-telegram"></use>
                   </svg>
                 </a>
               </li>
@@ -880,7 +890,7 @@
               <li class="footer__social__list">
                 <a class="footer__social__list--link" href="#" target="_blank">
                   <svg class="footer__social__list--icon">
-                    <use href="./src/images/icons.svg#icon_facebook"></use>
+                    <use href="./src/images/sumbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
