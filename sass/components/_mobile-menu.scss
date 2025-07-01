@@ -1,10 +1,12 @@
 @import "../utils/vars";
-.menu-container {
+.mobile-container {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
   flex-direction: column;
+  background-color: $bg-color;
+  background-image: url("/images/slider-pic7\ 1ice-cream336.png");
 }
 
 .mobile-menu.contacts {
